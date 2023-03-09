@@ -7,7 +7,6 @@ def fibbonaci_generate(quantity):
     while number < quantity:
         if number == 0:
             sequence.append(item_one)
-            #item_one += 1
         elif number == 1:
             sequence.append(item_two)
         else:

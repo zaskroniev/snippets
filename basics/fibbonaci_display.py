@@ -6,7 +6,6 @@ def fibbonaci_display(quantity):
     while number < quantity:
         if number == 0:
             print(item_one)
-            #item_one += 1
         elif number == 1:
             print(item_two)
         else:
