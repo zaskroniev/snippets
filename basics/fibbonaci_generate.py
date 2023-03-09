@@ -1,5 +1,5 @@
 #generuje listę wyrazów ciągu Fibonacciego o zadanej długości
-def fibbonaci_display(quantity):
+def fibbonaci_generate(quantity):
     item_one = 0
     item_two = 1
     number = 0
@@ -19,6 +19,6 @@ def fibbonaci_display(quantity):
     return sequence
 
 quantity = int(input("Ile liczb z ciągu Fibbonaciego chcesz wyświetlić? "))
-sequence = fibbonaci_display(quantity)
+sequence = fibbonaci_generate(quantity)
 
 print(sequence)
